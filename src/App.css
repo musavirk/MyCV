@@ -1,0 +1,30 @@
+.body {
+  overflow: auto;
+}
+.sideBar {
+  width: 200px;
+  color: #fff;
+  height: auto;
+  background-color: rgb(53, 49, 49);
+  padding-left: 10px;
+}
+
+.sideBar a {
+  color: #fff;
+}
+.sideBar a svg {
+  margin-right: 5px;
+}
+.infobx {
+  color: rgba(5, 5, 93, 0.9);
+}
+
+@media (max-width: 767px) {
+  .body {
+    overflow: auto;
+  }
+  .sideBar {
+    width: 50px;
+    height: auto;
+  }
+}
