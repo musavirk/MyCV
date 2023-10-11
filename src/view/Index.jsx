@@ -45,7 +45,7 @@ const Index = () => {
               <hr />
             </Col>
           </Row>
-          <Row>
+          <Row className="full">
             <Col>
               <h2>Education</h2>
               <hr />
@@ -69,7 +69,7 @@ const Index = () => {
             <h2>Projects</h2>
 
             <hr />
-            <Col>
+            <Col class="col-sm-12 col-lg-4">
               {" "}
               <h3> ONE SCHOOL</h3>
               <br />
@@ -83,7 +83,7 @@ const Index = () => {
                 overall management and organization of the school's operations.
               </p>
             </Col>
-            <Col>
+            <Col class="col-sm-12 col-lg-4">
               <h3>TRAFFIC RULE VIOLATION DETECTION</h3>
               <hr />
               <p>
@@ -93,7 +93,7 @@ const Index = () => {
                 detection YOLOV5 is used. Also number of ML algorithms are used.{" "}
               </p>
             </Col>
-            <Col>
+            <Col class="col-sm-12 col-lg-4">
               <h3>CANTEEN MANAGEMENT SYSTEM</h3>
               <hr />
               <p>
@@ -107,7 +107,7 @@ const Index = () => {
 
           <Container flex-column className="justify-content-center">
             <Row>
-              <Col>
+              <Col class="col-sm-12 col-lg-6">
                 <p>
                   ➢ REST API Development with PHP/Laravel <br />➢ API
                   Development using Node JS
@@ -126,7 +126,7 @@ const Index = () => {
                 </p>
               </Col>
 
-              <Col>
+              <Col class="col-sm-12 ">
                 {" "}
                 <Button variant="primary" onClick={handleShow}>
                   Hire me
