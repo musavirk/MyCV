@@ -105,9 +105,9 @@ const Index = () => {
             <hr />
           </Row>
 
-          <Container flex-column className="justify-content-center">
+          <Container flex-column>
             <Row>
-              <Col class="col-sm-12 col-lg-6">
+              <div class="col-sm-12 ">
                 <p>
                   ➢ REST API Development with PHP/Laravel <br />➢ API
                   Development using Node JS
@@ -124,14 +124,14 @@ const Index = () => {
                   <br /> ➢ Code Formatting and Standardisation using Prettier
                   <br /> ➢ Static Web Hosting using GitHub Pages
                 </p>
-              </Col>
+              </div>
 
-              <Col class="col-sm-12 ">
+              <div class="col-sm-12 ">
                 {" "}
                 <Button variant="primary" onClick={handleShow}>
                   Hire me
                 </Button>
-              </Col>
+              </div>
             </Row>
           </Container>
         </Container>
